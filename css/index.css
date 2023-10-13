@@ -2,8 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Futura, sans-serif;
 }
+header > div{
+    margin-bottom: 10px;
 
+}
 body > div {
     margin-bottom: 10px;
 }
@@ -29,6 +33,8 @@ body > div {
 .button {
     height: 100%;
     border: 1px solid black;
+    width: 100%;
+    text-align: center;
 }
 
 .agenda {
@@ -50,9 +56,10 @@ body > div {
         background-color: indigo;
         border-radius: 25px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         border-color: black;
         border-width: thick;
+        justify-content:space-evenly;
     }
     .agenda{
         width: 801px;
