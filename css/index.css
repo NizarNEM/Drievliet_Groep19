@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Futura, sans-serif;
+}
+header > div{
+    margin-bottom: 10px;
+
+}
+body > div {
+    margin-bottom: 10px;
+}
+
+.topbar{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    border-radius:0 0 25px 25px;
+}
+
+.buttons{
+    width: 100%;
+    height: 180px;
+    background-color: tomato;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-width: thick;
+}
+
+.button {
+    height: 100%;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.agenda {
+    width: 100%;
+    height: 180px;
+    background-color: darkseagreen;
+    border-radius: 25px;
+}
+@media screen and (max-width: 801px){
+    .topbar {
+        width: 801px;
+        height: 400px;
+        background-color: black;
+        border-radius: 0 0 25px 25px;
+    }
+    .buttons{
+        width: 801px;
+        height: 180px;
+        background-color: indigo;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        border-color: black;
+        border-width: thick;
+        justify-content:space-evenly;
+    }
+    .agenda{
+        width: 801px;
+        height: 180px;
+        background-color: darkorange;
+        border-radius: 25px;
+    }
+}
+
+
+@media screen and (max-width: 401px){
+    .topbar {
+        width: 100%;
+        height: 200px;
+        background-color: yellow;
+        border-radius: 0 0 25px 25px;
+    }
+    .buttons{
+        width: 100%;
+        height: 180px;
+        background-color: olivedrab;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        border-color: black;
+        border-width: thick;
+    }
+    .agenda{
+        width: 100%;
+        height: 180px;
+        background-color: brown;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
