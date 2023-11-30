@@ -1,0 +1,597 @@
+@media (min-width: 992px) {
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="48a1be96-bc02-a6a4-50c2-48bb167da2bf"] {
+    height: 0px;
+    opacity: 0;
+    width: 0%;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="ee2e151e-63ee-51ac-702e-a6a26bb91ba8"] {
+    opacity: 0;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="c2766830-a712-b51d-652e-d274f678faa1"] {
+    opacity: 0;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="2986aee7-6173-38b5-7419-7b37cdac2ce7"] {
+    opacity: 0;
+    height: 0px;
+    width: 0%;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="9123aa4b-aedc-0fae-4c9d-ec7998fcf0e1"] {
+    opacity: 0;
+    height: 0px;
+    width: 0%;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="1121626f-55ad-9a8f-154f-5e4791afe685"] {
+    opacity: 0;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="0506a22c-5699-2ce6-e3f1-1a14229aa321"] {
+    opacity: 0;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="101d38e9-17d5-8fd4-819c-19eb95153cd8"] {
+    opacity: 0;
+    width: 0px;
+    height: 0%;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="857924bc-7898-7809-8917-12840244214c"] {
+    opacity: 0;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="fe75a08b-41bd-f33c-739e-677fcef53871"] {
+    opacity: 0;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="4c62bef7-1ce1-8e9c-fbc1-838036460851"] {
+    opacity: 0;
+    height: 0px;
+    width: 0%;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="8b7d4eb3-5f78-eb7b-5a05-23e01dfc4ae0"] {
+    width: 0px;
+    height: 0%;
+    opacity: 0;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="bc06f4d6-bd49-1a6d-b0ca-ab8b72ea7841"] {
+    opacity: 0;
+    height: 0px;
+    width: 0%;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="523ef19e-014a-0bc6-ea0d-b3bad7f45237"] {
+    opacity: 0;
+  }
+
+  html.w-mod-js:not(.w-mod-ix)
+    [data-w-id="e9f379f3-8d3f-a921-19a5-5e0e1107fef3"] {
+    opacity: 0;
+  }
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+[text-split] {
+  opacity: 0;
+}
+
+html.w-editor [text-split] {
+  opacity: 1;
+}
+
+.word {
+  overflow: hidden;
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
+  transform-origin: bottom;
+}
+
+/*width*/
+.nav-menu-item::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+/*track*/
+.nav-menu-item::-webkit-scrollbar-track {
+  background: rgba(255, 0, 0, 0) !important;
+  border-width: 0px !important;
+  border-style: none;
+  border-radius: 0%;
+}
+
+/*thumb*/
+.nav-menu-item::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0) !important;
+  border-style: solid;
+  border-radius: 0px;
+}
+
+body {
+  font-size: 1.1111111111111112vw;
+  background-color: #920c0f;
+}
+
+/* Max Font Size */
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+/* Min Font Size */
+@media screen and (max-width: 991px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ie-notification {
+    display: flex !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .calendly-popup-content {
+    height: 750px !important;
+    /*cursor: auto !important;*/
+  }
+
+  /*	.calendly-close-overlay, .calendly-popup-close{
+          cursor: auto !important;
+      }
+
+      ..calendly-popup-close{
+          cursor: pointer !important;
+      }*/
+  /*	* {
+
+    cursor: none !important;
+
+    }*/
+}
+
+/*Custom Cursor
+    * {
+
+cursor: url('https://assets-global.website-files.com/642e1e0cec894908466572c7/6438da14313d5b25a19edc49_%20empyrion-technologies-home-it-services-custom-mouse.svg'), auto;
+
+}*/
+
+/* Snippet gets rid of top margin on first element in any rich text*/
+.w-richtext > :first-child {
+  margin-top: 0;
+}
+
+/* Snippet gets rid of bottom margin on last element in any rich text*/
+.w-richtext > :last-child,
+.w-richtext ol li:last-child,
+.w-richtext ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Snippet prevents all click and hover interaction with an element */
+.clickable-off {
+  pointer-events: none;
+}
+
+/* Snippet enables all click and hover interaction with an element */
+.clickable-on {
+  pointer-events: auto;
+}
+
+/* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+.div-square::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+/*Hide focus outline for main content element*/
+main:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+/* Make sure containers never lose their center alignment*/
+.container-medium,
+.container-small,
+.container-large {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/*Reset buttons, and links styles*/
+a {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
+/*Apply "..." after 3 lines of text */
+.text-style-3lines {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/*Apply "..." after 2 lines of text */
+.text-style-2lines {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 991px) {
+  .background-color-mint {
+    display: none !important;
+  }
+
+  .nav-cta-wrapper {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  @-moz-document url-prefix() {
+    .padding-section-t64-b60 {
+      padding-bottom: 5.5em;
+    }
+  }
+}
+
+slick-list {
+  overflow: visible !important;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+}
+
+.testimonial-slide:not(.slick-active) {
+  opacity: 0.6;
+  transition-duration: 0.5s;
+}
+
+/*Image Gallery Cursor*/
+.testimonial-slider,
+.slider-gradient,
+.inisght-link,
+.insight-dragable {
+  cursor: url("assets/img/dragme.svg"),
+    auto !important;
+}
+
+.slick-disabled {
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 365px) {
+  .text-size-20m.mobile-text-18 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 393px) and (max-width: 479px) {
+  .section-home-signs {
+    padding-top: 5.7em;
+  }
+}
+
+.cta-primary {
+  color: white;
+  background-color: #580818 !important;
+  border: 0.13em solid transparent;
+  border-radius: 1em;
+  padding: 1em;
+  transition: all 0.3s;
+}
+
+.cta-primary:hover {
+  color: #fff;
+  background-color: transparent;
+  border-color: #580818;
+}
+
+.cc-nav {
+  background-color: #920c0f;
+  color: #fff;
+}
+
+.text-color-mint {
+  color: #580818;
+}
+
+.home-hero-line-1 {
+  width: 100%;
+  height: 0.5em;
+  max-width: 12.31em;
+  background-color: #580818;
+  border-radius: 6.25em;
+}
+
+.home-hero-line-2 {
+  width: 100%;
+  height: 0.5em;
+  max-width: 40em;
+  background-color: #580818;
+  border-radius: 6.25em;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  display: flex;
+  position: relative;
+}
+
+.home-hero-line-3 {
+  width: 100%;
+  height: 0.5em;
+  max-width: 40em;
+  background-color: #580818;
+  border-radius: 6.25em;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  display: flex;
+  position: relative;
+}
+
+.purple-dot {
+  background-color: #580818;
+}
+
+.dot-shadow {
+  box-shadow: 0 0 19px #580818;
+}
+
+.signs-line-1 {
+  background-color: #580818;
+}
+
+.signs-line-2 {
+  background-color: #580818;
+}
+
+.horizontal-line {
+  background-color: #580818;
+}
+
+.vertical-line {
+  background-color: #580818;
+}
+
+.line-1-curve {
+  border-bottom: 0.5em solid #580818;
+  border-left: 0.5em solid #580818;
+}
+
+.min-height-10 {
+  border-bottom: 0.5em solid #580818;
+  border-left: 0.5em solid #580818;
+}
+
+.full-img-gradient {
+  background-image: linear-gradient(
+    rgba(88, 8, 24, 0.63),
+    rgba(88, 8, 24, 0.63)
+  );
+}
+
+.nav-menu {
+  border-bottom: 0.5em solid #920c0f;
+}
+  .section-home-signs {
+    background-image: url("../../assets/img/border.png");
+  }
+
+  .text-span {
+    color: #580818;
+  }
+
+  .text-color-purple {
+    color: #580818;
+  }
+
+  .better-line-1 {
+    background-color: #580818;
+  }
+
+  .better-line-2 {
+    border-bottom: 0.5em solid #580818;
+    border-left: 0.5em solid #580818;
+  }
+
+  .better-line-3 {
+    background-color: #580818;
+  }
+
+  .branch-1-horizontal {
+    border-top: 0.5em solid #580818;
+    border-left: 0.5em solid #580818;
+  }
+
+  .branch-1-vert {
+    border-bottom: 0.5em solid #580818;
+    border-right: 0.5em solid #580818;
+  }
+
+  .branch-2-vert {
+    border-bottom: 0.5em solid #580818;
+    border-right: 0.5em solid #580818;
+  }
+
+  .branch-4-horizontal {
+    border-top: 0.5em solid #580818;
+    border-right: 0.5em solid #580818;
+  }
+
+  .branch-2-horizonatl {
+    border-top: 0.5em solid #580818;
+    border-left: 0.5em solid #580818;
+  }
+
+  .branch-3-vert {
+    border-bottom: 0.5em solid #580818;
+    border-left: 0.3em solid #580818;
+  }
+
+  .branch-3-horizontal {
+    border-top: 0.5em solid #580818;
+    border-right: 0.5em solid #580818;
+  }
+
+  .line-divider {
+    background-color: #580818;
+  }
+
+  .line-divider-2 {
+    background-color: #580818;
+  }
+
+  .have-card-wrapper {
+    color: #fff;
+    background-color: #920c0f;
+    border-radius: 1em;
+    padding: 2.5em;
+  }
+
+  .dark-background {
+    background-color: #580818;
+  }
+
+  .next {
+    color: #580818;
+    border: 1px solid #580818;
+  }
+
+  .prev {
+    color: #580818;
+    border: 1px solid #580818;
+  }
+
+  .next-2 {
+    color: #580818;
+    border: 1px solid #580818;
+  }
+
+  .prev-2 {
+    color: #580818;
+    border: 1px solid #580818;
+  }
+
+  .section-home-work {
+    background-image: linear-gradient(
+        rgba(88, 8, 24, 0.63),
+        rgba(88, 8, 24, 0.63)
+      ),
+      url(https://assets-global.website-files.com/642e1e0…/6451d1f…__empyrion-technologies-home-it-services-3.jpeg);
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    border-top: 6px solid #580818;
+  }
+
+  .section-footer {
+    border-top: 1px solid #580818;
+  }
+
+  .text-size-16 {
+    padding-top: 50px;
+  }
+
+  .footer-link-heading {
+    color: #580818;
+  }
+
+  .social-link-wrapper.text-color-white:hover,
+  .social-link-wrapper.hover-mint:hover {
+    color: #580818;
+  }
+
+  .logo-purple-background {
+    background-color: #920c0f;
+  }
+
+  .cta-secondary {
+    color: white;
+    background-color: #920c0f;
+    border: 0.13em solid transparent;
+    border-radius: 1em;
+    padding: 1em;
+    transition: all 0.3s;
+  }
+
+  .cta-secondary:hover {
+    background-color: #580818;
+    border-color: #920c0f;
+  }
+
+  .insight-category {
+    color: white;
+    text-transform: uppercase;
+    background-color: #920c0f;
+  }
+
+  .cta-primary:hover {
+    background-color: #920c0f;
+  }
+
+  .footer-link:hover {
+    color: #920c0f;
+  }
+
+  @media screen and (max-width: 991px) {
+    .branch-text-wrapper {
+      background-color: #920c0f;
+    }
+
+    .branch-solid-vertical-line {
+      background-color: #580818;
+    }
+
+    .branch-vertical-line {
+      background-color: #920c0f;
+    }
+
+    line {
+      background-color: rgba(88, 8, 24, 0.5);
+    }
+  }
+
+.w-nav-brand {
+  height: auto !important;
+}

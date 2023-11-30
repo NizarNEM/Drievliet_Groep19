@@ -1,0 +1,143 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.heading-56 {
+  font-size: 50px !important;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+[text-split] {
+  opacity: 0;
+}
+html.w-editor [text-split] {
+  opacity: 1;
+}
+
+.word {
+  overflow: hidden;
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
+  transform-origin: bottom;
+}
+
+/*width*/
+.nav-menu-item::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+/*track*/
+.nav-menu-item::-webkit-scrollbar-track {
+  background: rgba(255, 0, 0, 0) !important;
+  border-width: 0px !important;
+  border-style: none;
+  border-radius: 0%;
+}
+
+/*thumb*/
+.nav-menu-item::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0) !important;
+  border-style: solid;
+  border-radius: 0px;
+}
+
+body {
+  color: #fff;
+  background-color: #920c0f;
+  font-family: Poppins, sans-serif;
+  font-size: 1.13em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.cta-primary {
+  color: white;
+  background-color: #580818;
+  border: 0.13em solid transparent;
+  border-radius: 1em;
+  padding: 1em;
+  transition: all 0.3s;
+}
+
+.cta-primary:hover {
+  background: #920c0f !important;
+  border-color: black;
+}
+
+.resource-category {
+  color: white;
+  text-transform: uppercase;
+  background-color: #920c0f;
+  border-radius: 2.5em;
+  padding: 0.5em;
+  position: absolute;
+  top: 0.5em;
+  bottom: auto;
+  left: 0.47em;
+  right: auto;
+}
+
+.text-color-mint {
+  color: #580818;
+}
+
+.path {
+  color: #920c0f;
+}
+
+.w-nav-brand {
+  height: auto !important;
+}
+
+.prev {
+  width: 2.5em;
+  height: 2.5em;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  display: flex;
+}
+
+.next {
+  width: 2.5em;
+  height: 2.5em;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  display: flex;
+}
+
+.text-color-purple {
+  color: #580818;
+}
+
+.text-size-16 {
+  padding-top: 50px;
+}
+
+.heading-56 {
+  letter-spacing: 0.02em;
+  font-family: kallisto, sans-serif;
+  font-size: 3.3em;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.section-organization {
+  background-position: 0 0, 50% 100%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  border-top: 6px solid #580818;
+  background-color: white !important;
+}
